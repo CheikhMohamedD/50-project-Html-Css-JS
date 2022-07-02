@@ -2,83 +2,90 @@
 
 ## DESCRIPTION
 
-```
 We're gonna build cool projects in basic HTML css and Js in order to raise our skills in basic languages about programming!
-```
+
+---
 
 ### PROJECTS THAT WE'RE GOING TO BUILD
 
-```
-Expanding Cards
-Progress Steps
-Rotating Navigation Animation
-Hidden Search Widget
-Blurry Loading
-Scroll Animation
-Split Landing Page
-Form Wave
-Sound Board
-Dad Jokes
-Event Keycodes
-Faq Collapse
-Random Choice Picker
-Animated Navigation
-Incrementing Counter
-Drink Water
-Movie App
-Background Slider
-Theme Clock
-Button Ripple Effect
-Drag N Drop
-Drawing App
-Kinetic Loader
-Content Placeholder
-Sticky Navbar
-Double Vertical Slider
-Toast Notification
-Github Profiles
-Double Click Heart
-Auto Text Effect
-Password Generator
-Good Cheap Fast
-Notes App
-Animated Countdown
-Image Carousel
-Hoverboard
-Pokedex
-Mobile Tab Navigation
-Password Strength Background
-3d Background Boxes
-Verify Account UI
-Live User Filter
-Feedback UI Design
-Custom Range Slider
-Netflix Mobile Navigation
-Quiz App
-Testimonial Box Switcher
-Random Image Feed
-Todo List
-Insect Catch Game
-```
+1. Expanding Cards
+2. second
+   Progress Steps
+3. third
+   Rotating Navigation Animation
+4. Hidden Search Widget
+5. Blurry Loading
+6. Scroll Animation
+7. Split Landing Page
+8. Form Wave
+9. Sound Board
+10. Dad Jokes
+11. Event Keycodes
+12. Faq Collapse
+13. Random Choice Picker
+14. Animated Navigation
+15. Incrementing Counter
+16. Drink Water
+17. Movie App
+18. Background Slider
+19. Theme Clock
+20. Button Ripple Effect
+21. Drag N Drop
+22. Drawing App
+23. Kinetic Loader
+24. Content Placeholder
+25. Sticky Navbar
+26. Double Vertical Slider
+27. Toast Notification
+28. Github Profiles
+29. Double Click Heart
+30. Auto Text Effect
+31. Password Generator
+32. Good Cheap Fast
+33. Notes App
+34. Animated Countdown
+35. Image Carousel
+36. Hoverboard
+37. Pokedex
+38. Mobile Tab Navigation
+39. Password Strength Background
+40. 3d Background Boxes
+41. Verify Account UI
+42. Live User Filter
+43. Feedback UI Design
+44. Custom Range Slider
+45. Netflix Mobile Navigation
+46. Quiz App
+47. Testimonial Box Switcher
+48. Random Image Feed
+49. Todo List
+50. Insect Catch Game
+
+---
 
 ### Personnal Notes
 
-```
 to be continued...
-```
+
+---
 
 ### PROJECTS SCREENSHOTS
+
 Alt: coming soon...
 
-### SOURCE:
+---
+
+### SOURCE
 
 See [Udemy course](https://www.udemy.com/course/50-projects-50-days/).
 
 See [Github Repo.](https://github.com/bradtraversy/50projects50days)
 
+---
+
 ### LICENCE & CREDITS
 
-```The MIT License
+The MIT License
 
 Copyright (c) 2020-2021 Traversy Media https://traversymedia.com
 
@@ -88,5 +95,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-```
 Credit: Florin Pop & Traversy Media
