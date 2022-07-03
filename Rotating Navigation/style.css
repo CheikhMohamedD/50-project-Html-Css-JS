@@ -33,3 +33,42 @@ body {
 .container.show-nav {
   transform: rotate(-20deg);
 }
+
+.circle-container {
+  position: fixed;
+  top: -50px;
+  left: -50px;
+}
+.circle{
+   background-color: #ff7979;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   position: relative;
+   transition: transform 0.5s linear;
+}
+.circle button{
+   cursor: pointer;
+   position: absolute;
+   top: 45%;
+   left: 45%;
+   height: 50px;
+   background: transparent;
+   font-size: 13px;
+   color: #fff;
+   border: 0;
+}
+.circle button:focus{
+   outline: none;
+}
+.circle button#open{
+   left: 60%;
+}
+.circle button#close{
+   top: 60%;
+   transform: rotate(90deg);
+   transform-origin: top left;
+}
+.content img{
+   max-width: 100%;
+}
