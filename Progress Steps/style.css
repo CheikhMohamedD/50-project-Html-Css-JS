@@ -75,8 +75,9 @@ body {
    background-color:var(--line--border--fill);
    color:#fff;
    border:none;
-   padding:8px 30px;
+   padding:8px 19px;
    border-radius:7px;
+   margin:0 10px;
    font-size:14px;
    font-family:inherit;
    cursor:pointer;
