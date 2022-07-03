@@ -19,18 +19,17 @@ body {
   width: 90vw;
 }
 .panel {
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   height: 80vh;
-   border-radius: 33px;
-   color: #fff;
-   cursor: pointer;
-   flex: 0.5;
-   margin: 10px;
-   position: relative;
-   transition: flex 0.7 ease-in;
-
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  border-radius: 33px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.5s ease-in;
 }
 .panel h3 {
   font-size: 24px;
@@ -45,8 +44,8 @@ body {
 }
 
 .panel.active h3 {
-   opacity: 1;
-   transition: opacity 0.3s ease-in 0.4s;
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 @media (max-width: 480px) {
   .container {
@@ -56,4 +55,4 @@ body {
   .panel.panel:nth-of-type(5) {
     display: none;
   }
-} */
+}
