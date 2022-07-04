@@ -39,36 +39,81 @@ body {
   top: -50px;
   left: -50px;
 }
-.circle{
-   background-color: #ff7979;
-   height: 100px;
-   width: 100px;
-   border-radius: 50%;
-   position: relative;
-   transition: transform 0.5s linear;
+.circle {
+  background-color: #ff7979;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
 }
-.circle button{
-   cursor: pointer;
-   position: absolute;
-   top: 45%;
-   left: 45%;
-   height: 50px;
-   background: transparent;
-   font-size: 13px;
-   color: #fff;
-   border: 0;
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  height: 50px;
+  background: transparent;
+  font-size: 13px;
+  color: #fff;
+  border: 0;
 }
-.circle button:focus{
-   outline: none;
+.circle button:focus {
+  outline: none;
 }
-.circle button#open{
-   left: 60%;
+.circle button#open {
+  left: 60%;
 }
-.circle button#close{
-   top: 60%;
-   transform: rotate(90deg);
-   transform-origin: top left;
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
-.content img{
-   max-width: 100%;
+nav{
+   position: fixed;
+   left: 0;
+   bottom: 40px;
+   z-index: 100;
+}
+nav ul{
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+   padding-left: 30px;
+}
+nav ul li{
+   text-transform: uppercase;
+   color: #ffffff;
+   margin: 40px 0;
+   /* transform: translate(-150%); */
+   transition: transform 0.5s ease-in;
+}
+nav ul li i{
+   font-size: 20px;
+   margin-right: 10px;
+}
+nav ul li +li{
+   margin-left: 20px;
+}
+nav ul li +li +li{
+   margin-left: 40px;
+}
+
+.content img {
+  max-width: 100%;
+}
+.content {
+  max-width: 100%;
+  margin: 0;
+}
+.content h1 {
+  margin: 0;
+}
+.content small {
+  font-style: italic;
+  color: #555;
+}
+.content p {
+  color: #333;
+  line-height: 1.5;
 }
