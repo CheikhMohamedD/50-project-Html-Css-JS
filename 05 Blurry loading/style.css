@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu&display=swap);
+
+:root {
+  --dark--mode--background: #13131c;
+  --light--mode--background: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  /* Dark mode */
+  background-color: var(--dark--mode--background);
+  color: var(--light--mode--background);
+  /* light mode */
+  /* background-color: var(--light--mode--background);
+   color: var(--dark--mode--background); */
+
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg {
+  background: url("https://images.unsplash.com/photo-1655791378082-b47ed92ee363?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2972&q=80")
+    no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--light--mode--background);
+  text-shadow: 0 0 33px var(--dark--mode--background);
+}
