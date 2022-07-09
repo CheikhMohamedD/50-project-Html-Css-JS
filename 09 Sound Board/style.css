@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
 
 :root {
   --dark--mode--background: #13131c;
@@ -9,18 +9,19 @@
   box-sizing: border-box;
 }
 body {
-/* Dark mode */
-   background-color: var(--dark--mode--background);
-   color: var(--light--mode--background);
-/* light mode */
-   /* background-color: var(--light--mode--background);
+  /* Dark mode */
+  background-color: var(--dark--mode--background);
+  /* light mode */
+  /* background-color: var(--light--mode--background);
    color: var(--dark--mode--background); */
 
-  font-family: "Muli", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
 }

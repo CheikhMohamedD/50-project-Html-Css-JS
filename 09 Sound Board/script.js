@@ -1,10 +1,18 @@
-const audios = ["01", "02", "03", "04", "05", "06", "07"];
+const sounds = [
+  "Disiz",
+  "Labrith",
+  "1Plike140",
+  "Rema",
+  "Stromae",
+  "Tiakola",
+  "MOON",
+];
 
-audios.forEach((audio) => {
+sounds.forEach((sound) => {
   const btn = document.createElement("button");
   btn.classList.add("btn");
 
-  btn.innerText = audio;
+  btn.innerText = sound;
 
   document.getElementById("buttons").appendChild(btn);
 });

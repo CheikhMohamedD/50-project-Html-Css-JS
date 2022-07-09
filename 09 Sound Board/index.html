@@ -14,11 +14,41 @@
     />
 
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Sound Board</title>
   </head>
 
   <body>
-    <h1>Project boilerplate starter</h1>
+    <audio id="Disiz" src="Disiz.mp3"></audio>
+    <audio id="Labrith" src="Labrith.mp3"></audio>
+    <audio id="1PLIKE140" src="1PLIKE140.mp3"></audio>
+    <audio id="Rema" src="Rema.mp3"></audio>
+    <audio id="Stromae" src="Stromae.mp3"></audio>
+    <audio id="Tiakola" src="Tiakola.mp3"></audio>
+    <audio id="MOON" src="TO THE MOON.mp3"></audio>
     <script src="script.js"></script>
+
+    <div id="buttons"></div>
+    <!-- <script src="script.js"></script> -->
+    <script>
+      const sounds = [
+  "Disiz",
+  "Labrith",
+  "1Plike140",
+  "Rema",
+  "Stromae",
+  "Tiakola",
+  "MOON",
+];
+
+sounds.forEach((sound) => {
+  const btn = document.createElement("button");
+  btn.classList.add("btn");
+
+  btn.innerText = sound;
+
+  document.getElementById("buttons").appendChild(btn);
+});
+
+    </script>
   </body>
 </html>
