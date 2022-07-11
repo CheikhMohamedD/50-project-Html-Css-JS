@@ -10,10 +10,10 @@
 }
 body {
   /* Dark mode */
-  background-color: var(--dark--mode--background);
+  /* background-color: var(--dark--mode--background); */
   /* light mode */
-  /* background-color: var(--light--mode--background);
-   color: var(--dark--mode--background); */
+   background-color: #9a66d9;
+  /* color: var(--dark--mode--background); */
 
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -24,4 +24,26 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.btn{
+  background-color: rgb(254, 244, 255);
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: rgb(79, 11, 81);
+  color: #fff;
+}
+.btn:focus {
+  outline: none;
 }

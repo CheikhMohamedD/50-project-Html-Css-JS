@@ -18,37 +18,16 @@
   </head>
 
   <body>
-    <audio id="Disiz" src="Disiz.mp3"></audio>
-    <audio id="Labrith" src="Labrith.mp3"></audio>
-    <audio id="1PLIKE140" src="1PLIKE140.mp3"></audio>
-    <audio id="Rema" src="Rema.mp3"></audio>
-    <audio id="Stromae" src="Stromae.mp3"></audio>
-    <audio id="Tiakola" src="Tiakola.mp3"></audio>
-    <audio id="MOON" src="TO THE MOON.mp3"></audio>
-    <script src="script.js"></script>
+    <audio id="Disiz" src="sounds/Disiz.mp3"></audio>
+    <audio id="Labrith" src="sounds/Labrith.mp3"></audio>
+    <audio id="1PLIKE140" src="sounds/1PLIKE140.mp3"></audio>
+    <audio id="Rema" src="sounds/Rema.mp3"></audio>
+    <audio id="Stromae" src="sounds/Stromae.mp3"></audio>
+    <audio id="Tiakola" src="sounds/Tiakola.mp3"></audio>
+    <audio id="MOON" src="sounds/TO THE MOON.mp3"></audio>
 
     <div id="buttons"></div>
-    <!-- <script src="script.js"></script> -->
-    <script>
-      const sounds = [
-  "Disiz",
-  "Labrith",
-  "1Plike140",
-  "Rema",
-  "Stromae",
-  "Tiakola",
-  "MOON",
-];
 
-sounds.forEach((sound) => {
-  const btn = document.createElement("button");
-  btn.classList.add("btn");
-
-  btn.innerText = sound;
-
-  document.getElementById("buttons").appendChild(btn);
-});
-
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
