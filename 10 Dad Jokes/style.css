@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+
+:root {
+  --dark--mode--background: #13131c;
+  --light--mode--background: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+/* Dark mode */
+   background-color: var(--dark--mode--background);
+   color: var(--light--mode--background);
+/* light mode */
+   /* background-color: var(--light--mode--background);
+   color: var(--dark--mode--background); */
+
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
